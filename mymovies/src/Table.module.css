@@ -1,0 +1,93 @@
+
+  .movieCard {
+    /* position: absolute;  */
+    /* width: 220px;
+    height: 550px; */
+    left: 80px;
+    top: 879px;
+    
+    background: #040404;
+  }
+
+  .img{
+    width: 200px;
+    height: 400px;
+  }
+
+  .textAlign{
+    text-align: initial;
+  }
+  .textAlignCenter{
+    text-align:center;
+    color: #B6B6B6 !important;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+  }
+  .btnNone{
+    display: contents;
+    color: white;
+  }
+
+  .backColor{
+    background-color: black !important;
+  }
+
+  .letter{
+    /* width: 58px;
+    height: 32px; */
+
+    /* Heading/H3 */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.04em;
+    font-feature-settings: 'zero' on, 'ss01' on, 'cv02' on, 'kern' off;
+
+    color: #B6B6B6;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-overflow: ellipsis;
+  }
+
+
+  .searchBox{
+    /* position: absolute; */
+
+    width: 463px;
+    /* height: 58px; */
+    /* left: 489px;
+    top: 20px; */
+    border-color: none;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 8px;
+  }
+.Login{
+  width: 1700px;
+  height: 900px;
+}
+  .loginBackgroundImg{
+    position: absolute;
+    
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    /* background: linear-gradient(269.96deg, rgba(29, 29, 29, 0) 0.04%, rgba(29, 29, 29, 0.8) 99.5%); */
+    background-image: url('https://image.tmdb.org/t/p/w500/xHrp2pq73oi9D64xigPjWW1wcz1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+  }
+
